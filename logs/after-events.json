@@ -1,0 +1,114 @@
+[
+  {
+    "event": "starting",
+    "time": 1792105507.747199,
+    "action": "install_warning",
+    "label": "Yükle"
+  },
+  {
+    "event": "finished",
+    "time": 1792105531.1224468,
+    "action": "install_warning",
+    "wait_status": 0,
+    "page": "done",
+    "message": "",
+    "notification": true,
+    "version_comparison": 2,
+    "installed": "installed 1.0",
+    "query_status": 0
+  },
+  {
+    "event": "starting",
+    "time": 1792105531.7393172,
+    "action": "failed_remove",
+    "label": "Tekrar Yükle"
+  },
+  {
+    "event": "finished",
+    "time": 1792105551.1985464,
+    "action": "failed_remove",
+    "wait_status": 25600,
+    "page": "doneinfo",
+    "message": "Tamamlanamadı !",
+    "notification": false,
+    "version_comparison": 2,
+    "installed": "installed 1.0",
+    "query_status": 0
+  },
+  {
+    "event": "starting",
+    "time": 1792105558.590599,
+    "action": "reinstall",
+    "label": "Tekrar Yükle"
+  },
+  {
+    "event": "finished",
+    "time": 1792105583.513158,
+    "action": "reinstall",
+    "wait_status": 0,
+    "page": "done",
+    "message": "",
+    "notification": true,
+    "version_comparison": 2,
+    "installed": "installed 1.0",
+    "query_status": 0
+  },
+  {
+    "event": "starting",
+    "time": 1792105591.4645407,
+    "action": "upgrade",
+    "label": "Versiyon Yükselt"
+  },
+  {
+    "event": "finished",
+    "time": 1792105611.2910364,
+    "action": "upgrade",
+    "wait_status": 0,
+    "page": "done",
+    "message": "",
+    "notification": true,
+    "version_comparison": 2,
+    "installed": "installed 2.0",
+    "query_status": 0
+  },
+  {
+    "event": "starting",
+    "time": 1792105617.6269414,
+    "action": "downgrade",
+    "label": "Versiyon Düşür"
+  },
+  {
+    "event": "finished",
+    "time": 1792105636.2776663,
+    "action": "downgrade",
+    "wait_status": 0,
+    "page": "done",
+    "message": "",
+    "notification": true,
+    "version_comparison": 2,
+    "installed": "installed 1.0",
+    "query_status": 0
+  },
+  {
+    "event": "starting",
+    "time": 1792105636.9061625,
+    "action": "remove",
+    "label": "Tekrar Yükle"
+  },
+  {
+    "event": "finished",
+    "time": 1792105653.6589272,
+    "action": "remove",
+    "wait_status": 0,
+    "page": "done",
+    "message": "",
+    "notification": true,
+    "version_comparison": 0,
+    "installed": "",
+    "query_status": 1
+  },
+  {
+    "event": "complete",
+    "time": 1792105654.1874914
+  }
+]

@@ -1,0 +1,118 @@
+dpkg-buildpackage: info: source package pardus-package-installer
+dpkg-buildpackage: info: source version 0.7.0+result1
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Fatih Altun <fatih.altun@pardus.org.tr>
+dpkg-buildpackage: info: host architecture amd64
+ dpkg-source --before-build .
+ debian/rules clean
+dh clean --with python3 --buildsystem=pybuild
+   dh_auto_clean -O--buildsystem=pybuild
+I: pybuild base:311: python3.13 setup.py clean 
+running clean
+removing '/home/pardus/package-installer-build-20261016/source/.pybuild/cpython3_3.13/build' (and everything under it)
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.13' does not exist -- can't clean it
+   dh_autoreconf_clean -O--buildsystem=pybuild
+   dh_clean -O--buildsystem=pybuild
+ debian/rules binary
+dh binary --with python3 --buildsystem=pybuild
+   dh_update_autotools_config -O--buildsystem=pybuild
+   dh_autoreconf -O--buildsystem=pybuild
+   dh_auto_configure -O--buildsystem=pybuild
+I: pybuild base:311: python3.13 setup.py config 
+running config
+   dh_auto_build -O--buildsystem=pybuild
+I: pybuild base:311: /usr/bin/python3 setup.py build 
+running build
+running build_scripts
+creating build/scripts-3.13
+copying and adjusting pardus-package-installer -> build/scripts-3.13
+changing mode of build/scripts-3.13/pardus-package-installer from 644 to 755
+   dh_auto_test -O--buildsystem=pybuild
+I: pybuild base:311: cd /home/pardus/package-installer-build-20261016/source/.pybuild/cpython3_3.13/build; python3.13 -m unittest discover -v 
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+NO TESTS RAN
+   create-stamp debian/debhelper-build-stamp
+   dh_testroot -O--buildsystem=pybuild
+   dh_prep -O--buildsystem=pybuild
+   dh_auto_install --destdir=debian/pardus-package-installer/ -O--buildsystem=pybuild
+I: pybuild base:311: /usr/bin/python3 setup.py install --root /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer 
+running install
+/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:90: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running build
+running build_scripts
+running install_data
+creating /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr
+creating /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/applications
+copying tr.org.pardus.package-installer.desktop -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/applications
+creating /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/pardus/pardus-package-installer/ui
+copying ui/MainWindow.glade -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/pardus/pardus-package-installer/ui
+creating /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/pardus/pardus-package-installer/src
+copying src/Actions.py -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/pardus/pardus-package-installer/src
+copying src/Main.py -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/pardus/pardus-package-installer/src
+copying src/MainWindow.py -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/pardus/pardus-package-installer/src
+copying src/__version__ -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/pardus/pardus-package-installer/src
+creating /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/bin
+copying pardus-package-installer -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/bin
+creating /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/polkit-1/actions
+copying tr.org.pardus.pkexec.pardus-package-installer.policy -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/polkit-1/actions
+creating /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/icons/hicolor/scalable/apps
+copying images/pardus-package-installer.svg -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/icons/hicolor/scalable/apps
+creating /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/locale/tr/LC_MESSAGES
+copying po/tr/LC_MESSAGES/pardus-package-installer.mo -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/locale/tr/LC_MESSAGES
+creating /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/locale/pt/LC_MESSAGES
+copying po/pt/LC_MESSAGES/pardus-package-installer.mo -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/share/locale/pt/LC_MESSAGES
+running install_egg_info
+running egg_info
+creating Pardus_Package_Installer.egg-info
+writing Pardus_Package_Installer.egg-info/PKG-INFO
+writing dependency_links to Pardus_Package_Installer.egg-info/dependency_links.txt
+writing requirements to Pardus_Package_Installer.egg-info/requires.txt
+writing top-level names to Pardus_Package_Installer.egg-info/top_level.txt
+writing manifest file 'Pardus_Package_Installer.egg-info/SOURCES.txt'
+reading manifest file 'Pardus_Package_Installer.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'Pardus_Package_Installer.egg-info/SOURCES.txt'
+Copying Pardus_Package_Installer.egg-info to /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/lib/python3.13/dist-packages/Pardus_Package_Installer-0.7.0+result1.egg-info
+Skipping SOURCES.txt
+running install_scripts
+copying build/scripts-3.13/pardus-package-installer -> /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/bin
+changing mode of /home/pardus/package-installer-build-20261016/source/debian/pardus-package-installer/usr/bin/pardus-package-installer to 755
+   dh_installdocs -O--buildsystem=pybuild
+   dh_installchangelogs -O--buildsystem=pybuild
+   dh_python3 -O--buildsystem=pybuild
+I: dh_python3 tools:114: replacing shebang in debian/pardus-package-installer/usr/bin/pardus-package-installer
+   dh_installsystemduser -O--buildsystem=pybuild
+   dh_icons -O--buildsystem=pybuild
+   dh_perl -O--buildsystem=pybuild
+   dh_link -O--buildsystem=pybuild
+   dh_strip_nondeterminism -O--buildsystem=pybuild
+	Normalized debian/pardus-package-installer/usr/share/locale/tr/LC_MESSAGES/pardus-package-installer.mo
+   dh_compress -O--buildsystem=pybuild
+   dh_fixperms -O--buildsystem=pybuild
+   dh_missing -O--buildsystem=pybuild
+   dh_installdeb -O--buildsystem=pybuild
+   dh_gencontrol -O--buildsystem=pybuild
+   dh_md5sums -O--buildsystem=pybuild
+   dh_builddeb -O--buildsystem=pybuild
+dpkg-deb: building package 'pardus-package-installer' in '../pardus-package-installer_0.7.0+result1_all.deb'.
+ dpkg-genbuildinfo --build=binary -O../pardus-package-installer_0.7.0+result1_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../pardus-package-installer_0.7.0+result1_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-buildpackage: info: binary-only upload (no source included)

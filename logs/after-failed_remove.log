@@ -1,0 +1,148 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Paket listeleri okunuyor...
+Bağımlılık ağacı oluşturuluyor...
+Durum bilgisi okunuyor...
+Aşağıdaki paketler otomatik olarak kurulmuş ve artık bu paketlere gerek duyulmuyor:
+  libabsl20220623              libmagickwand-6.q16-6
+  libaio1                      libmbedcrypto7
+  libamd2                      libnfs13
+  libassuan0                   libopenh264-7
+  libaudgui5                   liborcus-0.17-0
+  libaudqt2                    liborcus-parser-0.17-0
+  libavfilter8                 libpaper1
+  libavformat59                libpcre3
+  libavif15                    libperl5.36
+  libblockdev-crypto2          libplacebo208
+  libblockdev-loop2            libplist3
+  libblockdev-part-err2        libpoppler-cpp0v5
+  libblockdev-part2            libpoppler126
+  libblockdev-swap2            libpostproc56
+  libblockdev-utils2           libpython3.11
+  libblockdev2                 libpython3.11-dev
+  libboost-filesystem1.74.0    libpython3.11-minimal
+  libboost-iostreams1.74.0     libpython3.11-stdlib
+  libboost-locale1.74.0        libqpdf29
+  libboost-thread1.74.0        libraw20
+  libcamd2                     libssh-gcrypt-4
+  libcbor0.8                   libsuitesparseconfig5
+  libccolamd2                  libswscale6
+  libcholmod3                  libtag1v5
+  libcolamd2                   libtag1v5-vanilla
+  libdirectfb-1.7-7            libtagc0
+  libecal-2.0-2                libumfpack5
+  libept1.6.0                  libupnp13
+  libflac12                    libusbmuxd6
+  libfuse3-3                   libwebrtc-audio-processing1
+  libgimp2.0                   libwireplumber-0.4-0
+  libglapi-mesa                libwlroots10
+  libgspell-1-2                libzxing2
+  libgtkmm-3.0-1v5             linux-image-6.1.0-11-amd64
+  libgupnp-igd-1.0-4           pardus-ayyildiz-grub-theme
+  libicu72                     perl-modules-5.36
+  libixml10                    python3-appdirs
+  libjim0.81                   python3-pysimplesoap
+  libldap-2.5-0                python3.11
+  libllvm15                    python3.11-dev
+  libmagickcore-6.q16-6        python3.11-minimal
+  libmagickcore-6.q16-6-extra
+Bu paketleri kaldırmak için 'apt autoremove' komutunu kullanın.
+
+Installing:
+  pardus-install-result-test
+
+dlstatus:1:0.0000:Alınan dosya: 1 / 1
+Summary:
+dlstatus:1:0.0000:Alınan dosya: 1 / 1
+  Upgrading: 0, Installing: 1, Removing: 0, Not Upgrading: 3
+dlstatus:1:100.0000:Alınan dosya: 1 / 1
+  Download size: 0 B / 712 B
+  Space needed: 0 B / 27,9 GB available
+
+İndir: 1 /home/pardus/package-installer-result-lab/private/warning.deb pardus-install-result-test all 1.0 [712 B]
+pmstatus:dpkg-exec:0.0000:dpkg çalıştırılıyor
+Daha önce seçili olmayan pardus-install-result-test paketi seçiliyor.
+(Veritabanı okunuyor ... (Veritabanı okunuyor ... 5%(Veritabanı okunuyor ... 10%(Veritabanı okunuyor ... 15%(Veritabanı okunuyor ... 20%(Veritabanı okunuyor ... 25%(Veritabanı okunuyor ... 30%(Veritabanı okunuyor ... 35%(Veritabanı okunuyor ... 40%(Veritabanı okunuyor ... 45%(Veritabanı okunuyor ... 50%(Veritabanı okunuyor ... 55%(Veritabanı okunuyor ... 60%(Veritabanı okunuyor ... 65%(Veritabanı okunuyor ... 70%(Veritabanı okunuyor ... 75%(Veritabanı okunuyor ... 80%(Veritabanı okunuyor ... 85%(Veritabanı okunuyor ... 90%(Veritabanı okunuyor ... 95%(Veritabanı okunuyor ... 100%(Veritabanı okunuyor ... 175733 dosya veya dizin kurulu durumda.)
+Paket açılacak: .../private/warning.deb ...
+pmstatus:pardus-install-result-test:0.0000:pardus-install-result-test (amd64) hazırlanıyor
+pmstatus:pardus-install-result-test:20.0000:pardus-install-result-test (amd64) paketi açılıyor
+Paket açılıyor: pardus-install-result-test (1.0) ...
+pmstatus:pardus-install-result-test:40.0000:pardus-install-result-test (amd64) kuruluyor
+pmstatus:dpkg-exec:40.0000:dpkg çalıştırılıyor
+Ayarlanıyor: pardus-install-result-test (1.0) ...
+pmstatus:pardus-install-result-test:40.0000:pardus-install-result-test (amd64) paketini yapılandırmaya hazırlanılıyor
+pmstatus:pardus-install-result-test:60.0000:pardus-install-result-test (amd64) yapılandırılıyor
+pmstatus:pardus-install-result-test:80.0000:pardus-install-result-test (amd64) kuruldu
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Paket listeleri okunuyor...
+Bağımlılık ağacı oluşturuluyor...
+Durum bilgisi okunuyor...
+Aşağıdaki paketler otomatik olarak kurulmuş ve artık bu paketlere gerek duyulmuyor:
+  libabsl20220623              libmagickwand-6.q16-6
+  libaio1                      libmbedcrypto7
+  libamd2                      libnfs13
+  libassuan0                   libopenh264-7
+  libaudgui5                   liborcus-0.17-0
+  libaudqt2                    liborcus-parser-0.17-0
+  libavfilter8                 libpaper1
+  libavformat59                libpcre3
+  libavif15                    libperl5.36
+  libblockdev-crypto2          libplacebo208
+  libblockdev-loop2            libplist3
+  libblockdev-part-err2        libpoppler-cpp0v5
+  libblockdev-part2            libpoppler126
+  libblockdev-swap2            libpostproc56
+  libblockdev-utils2           libpython3.11
+  libblockdev2                 libpython3.11-dev
+  libboost-filesystem1.74.0    libpython3.11-minimal
+  libboost-iostreams1.74.0     libpython3.11-stdlib
+  libboost-locale1.74.0        libqpdf29
+  libboost-thread1.74.0        libraw20
+  libcamd2                     libssh-gcrypt-4
+  libcbor0.8                   libsuitesparseconfig5
+  libccolamd2                  libswscale6
+  libcholmod3                  libtag1v5
+  libcolamd2                   libtag1v5-vanilla
+  libdirectfb-1.7-7            libtagc0
+  libecal-2.0-2                libumfpack5
+  libept1.6.0                  libupnp13
+  libflac12                    libusbmuxd6
+  libfuse3-3                   libwebrtc-audio-processing1
+  libgimp2.0                   libwireplumber-0.4-0
+  libglapi-mesa                libwlroots10
+  libgspell-1-2                libzxing2
+  libgtkmm-3.0-1v5             linux-image-6.1.0-11-amd64
+  libgupnp-igd-1.0-4           pardus-ayyildiz-grub-theme
+  libicu72                     perl-modules-5.36
+  libixml10                    python3-appdirs
+  libjim0.81                   python3-pysimplesoap
+  libldap-2.5-0                python3.11
+  libllvm15                    python3.11-dev
+  libmagickcore-6.q16-6        python3.11-minimal
+  libmagickcore-6.q16-6-extra
+Bu paketleri kaldırmak için 'apt autoremove' komutunu kullanın.
+
+REMOVING:
+  pardus-install-result-test*
+
+Summary:
+pmstatus:dpkg-exec:0.0000:dpkg çalıştırılıyor
+  Upgrading: 0, Installing: 0, Removing: 1, Not Upgrading: 3
+  Space needed: 0 B / 27,9 GB available
+
+(Veritabanı okunuyor ... (Veritabanı okunuyor ... 5%(Veritabanı okunuyor ... 10%(Veritabanı okunuyor ... 15%(Veritabanı okunuyor ... 20%(Veritabanı okunuyor ... 25%(Veritabanı okunuyor ... 30%(Veritabanı okunuyor ... 35%(Veritabanı okunuyor ... 40%(Veritabanı okunuyor ... 45%(Veritabanı okunuyor ... 50%(Veritabanı okunuyor ... 55%(Veritabanı okunuyor ... 60%(Veritabanı okunuyor ... 65%(Veritabanı okunuyor ... 70%(Veritabanı okunuyor ... 75%(Veritabanı okunuyor ... 80%(Veritabanı okunuyor ... 85%(Veritabanı okunuyor ... 90%(Veritabanı okunuyor ... 95%(Veritabanı okunuyor ... 100%(Veritabanı okunuyor ... 175735 dosya veya dizin kurulu durumda.)
+Kaldırılıyor: pardus-install-result-test (1.0) ...
+pmstatus:pardus-install-result-test:0.0000:pardus-install-result-test (amd64) paketinin kaldırılmasına hazırlanılıyor
+pmstatus:pardus-install-result-test:20.0000:pardus-install-result-test (amd64) kaldırılıyor
+Test fixture intentionally refuses removal.
+dpkg: pardus-install-result-test paketi işlenirken sorun yaşandı (--remove):
+pmerror:pardus-install-result-test:20.0000:pardus-install-result-test paketi pre-removal betiği kuruldu alt süreci 42 hatalı çıkış kodu ile sona erdi
+ pardus-install-result-test paketi pre-removal betiği kuruldu alt süreci 42 hatalı çıkış kodu ile sona erdi
+dpkg: çok fazla hata oldu, işlem durduruluyor
+İşleme sırasında hatalarla karşılaşıldı:
+ pardus-install-result-test
+Çok fazla hatayla karşılaşıldığı için işlem yarıda kesildi.
+Error: Sub-process /usr/bin/dpkg returned an error code (1)

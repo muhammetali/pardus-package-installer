@@ -1,0 +1,2 @@
+before: 2 outcomes verified: [('install_warning', 0, 'done', True, 'installed 1.0'), ('failed_remove', 0, 'done', True, 'installed 1.0')]
+after: 6 outcomes verified: [('install_warning', 0, 'done', True, 'installed 1.0'), ('failed_remove', 25600, 'doneinfo', False, 'installed 1.0'), ('reinstall', 0, 'done', True, 'installed 1.0'), ('upgrade', 0, 'done', True, 'installed 2.0'), ('downgrade', 0, 'done', True, 'installed 1.0'), ('remove', 0, 'done', True, '')]

@@ -1,0 +1,24 @@
+test_apt_failure_is_returned_for_every_action (__main__.ActionsTests.test_apt_failure_is_returned_for_every_action) ... ok
+test_invalid_arguments_fail_before_starting_apt (__main__.ActionsTests.test_invalid_arguments_fail_before_starting_apt) ... ok
+test_lock_failure_does_not_start_apt (__main__.ActionsTests.test_lock_failure_does_not_start_apt) ... ok
+test_successful_apt_commands_exit_successfully (__main__.ActionsTests.test_successful_apt_commands_exit_successfully) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.094s
+
+OK
+test_apt_failure_is_not_reported_as_success (__main__.OperationResultTests.test_apt_failure_is_not_reported_as_success) ... ok
+test_closed_pipes_wait_for_child_exit_and_next_operation_is_independent (__main__.OperationResultTests.test_closed_pipes_wait_for_child_exit_and_next_operation_is_independent) ... ok
+test_dpkg_diagnostics_are_only_errors_on_failed_exit (__main__.OperationResultTests.test_dpkg_diagnostics_are_only_errors_on_failed_exit) ... ok
+test_failed_removal_keeps_error_and_installed_version (__main__.OperationResultTests.test_failed_removal_keeps_error_and_installed_version) ... ok
+test_lock_preflight_preserves_existing_explanation (__main__.OperationResultTests.test_lock_preflight_preserves_existing_explanation) ... ok
+test_permission_cancellation_and_signal_are_not_success (__main__.OperationResultTests.test_permission_cancellation_and_signal_are_not_success) ... ok
+test_process_output_is_drained_before_completion (__main__.OperationResultTests.test_process_output_is_drained_before_completion) ... ok
+test_successful_removal_does_not_require_installed_version (__main__.OperationResultTests.test_successful_removal_does_not_require_installed_version) ... ok
+test_warning_about_deb_does_not_turn_success_into_failure (__main__.OperationResultTests.test_warning_about_deb_does_not_turn_success_into_failure) ... ok
+test_warning_does_not_mislabel_failure_as_connection_error (__main__.OperationResultTests.test_warning_does_not_mislabel_failure_as_connection_error) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 4.484s
+
+OK

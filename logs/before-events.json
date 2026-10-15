@@ -1,0 +1,42 @@
+[
+  {
+    "event": "starting",
+    "time": 1792105697.642756,
+    "action": "install_warning",
+    "label": "Yükle"
+  },
+  {
+    "event": "finished",
+    "time": 1792105719.2817643,
+    "action": "install_warning",
+    "wait_status": 0,
+    "page": "done",
+    "message": "",
+    "notification": true,
+    "version_comparison": 2,
+    "installed": "installed 1.0",
+    "query_status": 0
+  },
+  {
+    "event": "starting",
+    "time": 1792105719.8895018,
+    "action": "failed_remove",
+    "label": "Tekrar Yükle"
+  },
+  {
+    "event": "finished",
+    "time": 1792105736.466796,
+    "action": "failed_remove",
+    "wait_status": 0,
+    "page": "done",
+    "message": "",
+    "notification": true,
+    "version_comparison": 2,
+    "installed": "installed 1.0",
+    "query_status": 0
+  },
+  {
+    "event": "complete",
+    "time": 1792105736.9898956
+  }
+]

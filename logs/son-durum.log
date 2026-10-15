@@ -1,0 +1,32 @@
+(Reading database ... 175735 files and directories currently installed.)
+Preparing to unpack .../private/cleanup.deb ...
+Unpacking pardus-install-result-test (1.0) over (1.0) ...
+Setting up pardus-install-result-test (1.0) ...
+(Reading database ... 175735 files and directories currently installed.)
+Removing pardus-install-result-test (1.0) ...
+    PID COMMAND
+   1969 /usr/bin/python3 /usr/bin/pardus-update
+PRETTY_NAME="Pardus GNU/Linux 25 (yirmibes)"
+NAME="Pardus GNU/Linux"
+VERSION_ID="25.2"
+VERSION="25.2 (yirmibes)"
+VERSION_CODENAME=yirmibes
+DEBIAN_VERSION_FULL=13.7
+ID=pardus
+HOME_URL="https://www.pardus.org.tr/"
+SUPPORT_URL="https://forum.pardus.org.tr/"
+BUG_REPORT_URL="https://talep.pardus.org.tr/"
+ID_LIKE=debian
+PARDUS_CODENAME=yirmibes
+apt	3.0.3
+gir1.2-gtk-3.0:amd64	3.24.49-3
+pardus-package-installer	0.7.0
+python3	3.13.5-1
+python3-apt	3.0.0+par23
+python3-gi	3.50.0-4+b1
+d449cb3944fc3dde56d9ee798abf43dc4cbd2c530ac337981ca0cb94cbc1f0bd  /usr/share/pardus/pardus-package-installer/src/Actions.py
+e141af4fa1acbe1a60bb9c89a2f2d702b1775fe1b487f7a105436d4ca7fe07cf  /usr/share/pardus/pardus-package-installer/src/MainWindow.py
+broken_count: 0
+fixture present: False
+upgradable: ['firmware-b43-installer', 'firmware-b43legacy-installer', 'pardus-update']
+comparison signature: (self, use_installed: bool = True) -> int

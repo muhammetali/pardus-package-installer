@@ -1,0 +1,18 @@
+COMMAND: ['/usr/share/pardus/pardus-package-installer/src/Actions.py', 'install', '/home/pardus/package-installer-result-lab/absent.deb']
+RETURN CODE: 0
+STDOUT: Reading package lists...
+
+STDERR: 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Error: Unsupported file /home/pardus/package-installer-result-lab/absent.deb given on commandline
+
+COMMAND: ['apt', 'install', '/home/pardus/package-installer-result-lab/absent.deb', '-yq', '-o', 'APT::Status-Fd=2', '-o', 'Dpkg::Options::=--force-confnew']
+RETURN CODE: 100
+STDOUT: Reading package lists...
+
+STDERR: 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Error: Unsupported file /home/pardus/package-installer-result-lab/absent.deb given on commandline
+
